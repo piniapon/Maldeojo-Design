@@ -1,0 +1,342 @@
+.main {
+  background-color: white;
+  width: 80%;
+  height: fit-content;
+  margin: auto;
+}
+
+header {
+height: fit-content;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid black;
+border-top:1px solid lightgrey;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 50px;
+}
+
+#supBar{
+width: 30%;
+align-content: space-evenly;}
+
+#sideSupBar{
+width: 30%;
+text-align: center;
+}
+
+.snAnchor{
+width: 1.3vw;
+height: 1.3vw;
+}
+
+.supBardiv{
+display: flex;
+justify-content: space-around;
+}
+
+#supBarLinks{
+display: flex;
+justify-content: space-around;
+font-family: 'Roboto', sans-serif;
+color: black;
+font-size: 1vw;
+}
+
+#supBarLinks>a{
+color: black;
+}
+
+#supBarMembership{
+  font-family: 'Caveat Brush', cursive;
+  font-size: 1.4vw;
+}
+
+#supBarEvents{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+
+
+a:hover{
+color: red;
+transition: 0.2s;
+}
+
+#supBarSN, #footerSocialIcons{
+margin-top: 20px;
+display: flex;
+justify-content: space-around;
+text-align: center;
+}
+
+hr { width:100%; height:0.1px; background:lightgray; display: flex }
+
+a{
+text-decoration: none;
+}
+
+ul{
+list-style: none;
+padding: 0;
+}
+
+.supLinks {
+text-decoration: none;
+display: flex;
+justify-content: space-around;
+}
+
+
+
+#logo{
+width: 30%
+}
+
+#logoImg{
+width: 100%;
+}
+
+#sidebar{
+width: 30%;
+height: fit-content;
+}
+
+#content{
+
+width: 65%;
+height: fit-content;
+}
+
+#subNavContent{
+display: flex;
+justify-content: space-around;
+background-color: black;
+color: black;
+height: 60px;
+margin: 0;
+font-family: 'Open Sans', sans-serif;;
+}
+
+#subNavContent>a{
+color: black;
+}
+
+.categories{
+  font-family: 'Open Sans', sans-serif;
+  text-decoration-line: underline;
+  color: gray;
+}
+
+#subNavContent>a:hover{
+color: white;
+background-color: black;
+}
+
+#subNavBar{
+margin-bottom: 60px;
+}
+
+#subNavContent>a{
+display: flex;
+background-color: gold;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+}
+
+section{
+display: flex;
+justify-content: space-between;
+}
+
+#picInfo{
+display: flex;
+justify-content: space-between;
+}
+
+.sideDivs>input{
+width: 100%;
+height: 59px;
+padding: 0;
+border-bottom: solid lightgrey 1px ;
+border-top: 0;
+border-left: 0;
+border-right: 0;
+}
+
+
+.sideDivs{
+display: flex;
+width: 100%;
+height: 60px;
+align-items: center;
+}
+
+#logo>img, .publication>img{
+width: 100%;
+}
+
+#editorContent{
+padding-right: 10%;
+padding-left: 10%;
+background-color: #cccccc;
+padding-top: 1vw;
+padding-bottom: 1vw;
+background-image: url("https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1906&q=80");
+background-size: cover;
+}
+.editorImgDiv{
+background-color: tomato;
+width: 100%;
+height: 14vw;
+margin-top: 2vw;
+margin-bottom: 2vw;
+}
+
+.editImg{
+height: 100%;
+width: 100%;
+object-fit: cover;
+}
+
+#pageNav{
+display: flex;
+justify-content: space-between;
+background-color: tomato;
+}
+
+button{
+background: 0;
+border: none;
+height: 100%;
+margin: 0;
+padding-left: 15px;
+padding-right: 15px;
+background-color: red;
+}
+
+.cell{
+width: 100%;
+height: 12vw;
+overflow-wrap: break-word;
+}
+
+
+
+.thumbImg{
+width: 100%;
+height: 100%;
+object-fit: cover;
+align-content: center;
+}
+
+input:hover{
+transition: 0.2s;
+background-color: gainsboro;}
+
+#thumbnails{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-gap: 1rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+height: fit-content;
+width: 100%;
+margin-bottom: 4vw;
+}
+
+.thumbImg:hover{
+transition: 0.2s ease-in;
+filter: opacity(50%);
+}
+
+#trending{
+background-color: orange;
+font-size: 1.3vw;
+padding-left: 1vw;
+color: white;
+width: auto;
+}
+
+
+.pageNavSeparator{
+margin-top: 3vw;
+margin-bottom: 3vw;
+}
+
+#footerTop, #footerBottom{
+height: 5vw;
+display: flex;
+align-items: center;
+width: 100%;
+color: orange;
+}
+
+
+
+#footerTop{
+border-bottom: 1px solid orange
+}
+
+#footImg{
+width: 35%;
+}
+
+#footSocial{
+  border-left: 1px solid orange;
+height: 100%;
+width: 20%;
+}
+
+#footLinks{
+width: 45%;
+justify-content: space-evenly;
+border-left: 1px solid orange;
+}
+
+#footImg, #footLinks{
+height: 100%;
+align-items: center;
+display: flex;
+}
+
+#footImg{
+background-color: orange;
+}
+
+.snAnchor:hover{
+  fill: red;
+  }
+
+#footerBottom{
+justify-content: space-between;
+text-align: center;
+align-items: center;
+display: flex;
+
+}
+
+#joinMail{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+width: 50%;
+}
+
+#joinText{
+width: 30%;
+}
+
+#membership{
+width: 20%;
+height: 100%;
+border-left: 1px solid orange;
+}
+
